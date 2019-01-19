@@ -2,13 +2,23 @@ Package: pkgInstaller
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Emile",
+           family = "Latour",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
+           email = "ejlatour@gmail.com")
+Description: Helpful functions for package installation and management.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/emilelatour/pkgInstaller
 BugReports: https://github.com/emilelatour/pkgInstaller/issues
+RoxygenNote: 6.1.1
+Imports: 
+    BiocManager, 
+    devtools, 
+    dplyr, 
+    glue, 
+    jsonlite, 
+    magrittr, 
+    rlang, 
+    tidyr
